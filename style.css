@@ -1,0 +1,137 @@
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body{
+    margin: 20px;
+    background-color: white;
+  }
+form{
+    border: 5px solid black;
+    max-width: 600px;
+    position: relative;
+   height: 100%;
+    margin: auto;
+padding:40px ;
+    background-color: rgb(247, 168, 122);
+    box-shadow: 0 4px 8px black(2,3,4,2,1.25);
+}
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+fieldset{
+    border: 4px soild black;
+    border-radius: 5px;
+padding: 40px;
+margin-bottom: 10px;
+}
+legend{
+    border: 4px soild black;
+    font-weight: 800;
+    text-align: left;
+    color: black;
+    border-color: black;
+}
+label{
+    display: block;
+    color: black;
+    font-weight: 600;
+}
+input>.profile{
+width: 5px;
+}
+
+
+input{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px rgb(32, 32, 32);
+    color: rgb(0, 0, 0);
+    padding: 1px;
+    display: block;
+    max-width: 170px;
+}
+textarea{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px rgb(32, 32, 32);
+    color: rgb(0, 0, 0);
+    padding: 2px;
+}
+input,textarea{
+    width: calc(100%-1px);
+    padding: 2px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+input:focus{
+    outline:none;
+}
+textarea:focus{
+    outline:none;
+}
+
+.btn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+
+    
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+.btn>button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    padding: 1%;
+    cursor: pointer;
+    
+}
+.btn>button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration:  4px underline rgb(0, 0, 0);
+}
+
+#output{
+    max-width: 600px;
+    margin: auto;
+    padding: 5px;
+    border: 4px soild rgb(0, 0, 0);
+    border-radius: 3px;
+    box-shadow: 0 3px 6px black(0,0,0,0.5);
+    color: white;
+    background-color:rgb(0, 0, 0); 
+    text-align: left;
+}
+
+#output>#image{
+  
+    border: 2px solid black;
+    object-fit: cover;
+    box-shadow: 2px 2px black(0,0,0,0.5);
+    border-radius: 500%;
+    margin: 0;
+    display: block;
+    text-align: left;
+    }
+
+ 
+    
+    

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <form id="formGi">
+        <h1 class="heading">RESUME EDITABLE GENERATOR:</h1>
+        <fieldset>
+
+            <legend>
+                Personal Details
+            </legend>
+            <label for="firstname">First Name:</label>
+            <input type="text" class="input" id="firstname" name="firstname" placeholder="enter your firstname"
+                required>
+            <br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" class="input" id="lastname" name="lastname" placeholder="enter your lastname" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" class="input" id="email" name="email" placeholder="enter your email" required><br>
+            <label for="Phonenumber">Phone Number:</label>
+            <input type="number" class="input" id="number" name="number" placeholder="enter your contact no"
+                required><br>
+            <label for="Location">Location:</label>
+            <input type="text" class="input" id="loaction" name="loaction" placeholder="enter your loaction"
+                required><br>
+            <label for="image">Image:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="Education">Education:</label>
+            <textarea name="Education" id="Education" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="Skills">Skills:</label>
+            <textarea name="Skills" id="Skills" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="Experience">Experience:</label>
+            <textarea name="Experience" id="Experience" rows="4" required></textarea>
+        </fieldset>
+        <div class="btn">
+            <button>
+                <b>Generate:</b></button>
+    </form>
+    <div id="output">
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
